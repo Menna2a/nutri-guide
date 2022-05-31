@@ -1,0 +1,127 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+body {
+  background-color: #ffffe6;
+}
+</style>
+<title>Nutri-Guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+  <script src="main.js"></script>
+
+<script type = "text/javascript">
+function submitting(){
+  alert("You have been registered.")
+}
+function logging(){
+  alert("Successfully logged in!")
+}
+</script>
+
+
+
+  <link rel = "stylesheet" type="text/css" href="style.css">
+   <div class="title" >
+   <h1 class = "name"> NutriGuide </h1></div>
+
+   <div class= "title1">
+  <h2 class= "slogan"> Steps to a Healthier Lifestyle!</h2> </div>
+
+  <hr>
+
+  <div class = "menu">
+  <pre>
+  <style>
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+</style>
+
+ <a href="index.htm">Home</a>   <a href= "login.htm" >       Login/SignUp </a>   <a href= "adult.html" >       Adults  </a>      <a href= "kids.htm" >  Kids </a>   
+  </div>
+<hr>
+
+<div class="container">
+
+    <form onsubmit="logging()" class="form" id="login">
+      <h2 class="form__title">Log In</h2>
+      <div class="form__message form__message--error"></div>
+      <div class="form__input-group">
+         <input type="text" required="required" id="loginUsername" class="form__input" autofocus placeholder= "Username">
+       <div class="form__input-error-message"></div>
+</div>
+  <div class="form__input-group">
+         <input type="password" required="required" id="loginPassword" class="form__input" autofocus placeholder= "Password">
+       <div class="form__input-error-message"> </div>
+</div>
+<button class="form__button" id="continue" type="submit">Continue</button>
+   <p class="form__text">
+<a class="form__link" id="linkcreateAccount">Don't have an account? Create one now!</a>
+   </p>
+</form>
+
+    
+    <form onsubmit="submitting()" class="form form--hidden" id="createAccount">
+      <h2 class="form__title">Create Account</h2>
+      <div class="form__message form__message--error"></div>
+      <div class="form__input-group">
+         <input type="text" required="required" id="signupUsername" class="form__input" autofocus placeholder= "Username">
+       <div class="form__input-error-message"></div>
+</div>
+   <div class="form__input-group">
+         <input type="email" required="required" id="signupEmail" class="form__input" autofocus placeholder= "Email Address">
+       <div class="form__input-error-message"></div>
+</div>
+  <div class="form__input-group">
+         <input type="password" required="required" id="signupPassword" class="form__input" autofocus placeholder= "Password">
+       <div class="form__input-error-message"> </div>
+</div>
+ <div class="form__input-group">
+         <input type="password" required="required" id="confirmPass" class="form__input" autofocus placeholder= "Confirm Password">
+       <div class="form__input-error-message"> </div>
+</div>
+<button class="form__button" id="submit" type="submit">Submit</button>
+   <p class="form__text">
+<a class="form__link" id="linklogin">Already have an account? Log in now!</a>
+   </p>
+</form>
+</div>
+
+<script src="main.js"></script>
+</body>
+
+</html>

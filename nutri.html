@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Reenie+Beanie&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="nutri.css">
+    <title>Nutrition admin page</title>
+  </head>
+
+  <body>
+
+    <div class="navbar" id="nav">
+      <div class="logo">
+        <img id="logo" src="nlogow.png" alt="Company logo" width="125">
+      </div>
+
+    <nav>
+      <ul id="menuItems">
+        <li><a class="BTN" href="index.htm">Home</a></li>
+        <li class="BTN" onclick="changeBackground()">Background </li>
+        <li class="BTN" onclick="changeNav()">Nav background</li>
+        <li class ="BTN" onclick="document.getElementById('text').style.fontSize='35px'">Text</a></li>
+        <li class="BTN" onclick="document.getElementById('logo').src='nlogo1.png'" >Logo</li>
+      </ul>
+    </nav>
+    </div>
+
+  <div class="banner" id="bg">
+    <h2> <br> Nutrition Admin Page</h2>
+  </div>
+
+  <div class="content">
+    <div class="wrapper">
+<h2>About Nutrition</h2>
+      <p id="text">Nutrition is the study of nutrients in food, how the body uses them, and the relationship between diet, health, and disease.
+
+Nutritionists use ideas from molecular biology, biochemistry, and genetics to understand how nutrients affect the human body.
+
+Nutrition also focuses on how people can use dietary choices to reduce the risk of disease, what happens if a person has too much or too little of a nutrient, and how allergies work.
+
+Nutrients provide nourishment. Proteins, carbohydrates, fat, vitamins, minerals, fiber, and water are all nutrients. If people do not have the right balance of nutrients in their diet, their risk of developing certain health conditions increases.
+
+This article will explain the different nutrients a person needs and why. It will also look at the role of the dietitian and the nutritionist.</p>
+
+    </div>
+
+  </div>
+
+  <script>
+function changeBackground() {
+  document.getElementById("bg").style.backgroundImage = "url('nutri1.png')";
+}
+function changeNav() {
+  document.getElementById("nav").style.backgroundColor = "#ddd";
+
+}
+</script>
+  </body>
+</html>

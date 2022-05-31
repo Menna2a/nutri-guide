@@ -1,0 +1,517 @@
+
+/* CSS file
+Author : Habiba
+Version : 1 */
+
+
+.header{
+	
+	width: 100%;
+	height: 200px;
+	background-image:url(https://th.bing.com/th/id/R.004cf176e814dc2b1243bbfb0ac9e04b?rik=xz3KjaWVL8BEAA&riu=http%3a%2f%2fimg.99.com.cn%2fuploads%2f161211%2f386_014053_1.png&ehk=TS03OpUD0y%2bBtTaeNbKG8w9HUMPThbYJt0AZGywzJL4%3d&risl=&pid=ImgRaw&r=0);
+	background-size:1360px;
+	
+}
+
+.title {
+	
+	color: #ED852F;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 45px;
+        margin-bottom:2px;
+        margin-top: 2px;
+        padding-top:5px;
+        text-align:center;
+        line-height:5px;
+}
+.title1 {
+	font-family: 'Petit Formal Script', cursive;
+	font-size: 12px;
+	text-align:center;
+	line-height:1px;
+}
+.menu{
+	width:100%;
+	height:25px;
+	border-style: none;
+	background-color:#006622;
+	line-height:1px;
+        font-family: 'Urbanist', sans-serif;
+        font-variant: small-caps;
+	font-size: 25px;
+	text-align: center;
+        padding-top: 5px;
+	padding-bottom:30px;
+	font-color : #ffffff;
+}
+.who{
+	border : 1px solid orange;
+	background-color: #ED852F;
+	width:20%;
+	height: 5%;
+	font-size: 35px;
+	color :#ffffff;
+	font-family: 'Urbanist', sans-serif;
+	border-radius: 15px 50px 30px;
+	padding-top: 10px;
+	padding-left: 15px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        margin-bottom: -90px;
+}
+.p1 {
+        font-family: 'Urbanist', sans-serif;
+	font-size : 20px;
+	text-align: center-left;
+	position: relative;
+	line-height: 24px;
+	top: -50px;
+	left : 30px;
+}
+.stay {
+	border : 1px solid orange;
+	background-color: #ED852F;
+	width:20%;
+	height: 5%;
+	font-size: 35px;
+	color :#ffffff;
+	font-family: 'Urbanist', sans-serif;
+	border-radius: 15px 50px 30px;
+	padding-top: 10px;
+	padding-left: 15px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+	margin-bottom:5px;
+	float: left;
+	position : relative;
+	top: -800px;
+	left : 30px;
+	
+}
+.contact {
+	font-size : 20px;
+	font-family: 'Urbanist', sans-serif;
+	position : relative;
+	top: -780px;
+	left : 30px;
+	line-height: 24px;
+}
+
+
+.rice {
+	
+  transition: 0.3s;
+  text-align: center;
+  width : 310px;
+  height : 350px;
+  position : relative;
+  top: 40px;
+  left : 20px;
+}
+.rice:hover {
+  box-shadow: 0 8px 16px 0 ;
+}
+
+.sub {
+	border : 1px solid orange;
+	background-color: #ED852F;
+	width:310px;
+	height :80px;
+        font-family: 'Urbanist', sans-serif;
+	font-size: 25px;
+	color :#ffffff;
+	text-align: center;
+	padding-top: 15px;
+	position: relative;
+	top: -10px;
+	left:19px;
+        box-shadow: 0 8px 16px 0 ;
+}
+.oat {
+  transition: 0.3s;
+  text-align: center;
+  width : 310px;
+  height : 350px;
+  position : relative;
+  top: -410px;
+  left : 450px;
+	
+}
+.oat:hover {
+  box-shadow: 0 8px 16px 0 ;
+}
+.sub1 {
+	border : 1px solid orange;
+	background-color: #ED852F;
+	width:310px;
+	height :80px;
+	font-size: 25px;
+        font-family: 'Urbanist', sans-serif;
+	color :#ffffff;
+	text-align: center;
+	padding-top: 15px;
+	position: relative;
+    box-shadow: 0 8px 16px 0 ;
+	top: -462px;
+  left : 450px;
+}
+.vs {
+  transition: 0.3s;
+  text-align: center;
+  width : 310px;
+  height : 350px;
+  position : relative;
+  top: -855px;
+  left : 900px;
+	
+}
+.vs:hover {
+  box-shadow: 0 8px 16px 0 ;
+}
+.sub2 {
+	border : 1px solid orange;
+	background-color: #ED852F;
+	width:310px;
+	height :80px;
+	font-size: 25px;
+        font-family: 'Urbanist', sans-serif;
+	color :#ffffff;
+	text-align: center;
+	padding-top: 15px;
+	position: relative;
+    box-shadow: 0 8px 16px 0 ;
+	top: -910px;
+  left : 900px;
+}
+.slider {
+        width: 500px;
+        height: 300px;
+        background-color: white;
+        text-align: center;
+        overflow: hidden;
+		position: relative;
+		top: -1000px;
+		left: 700px;
+           
+}
+.image-container {
+        width: 1500px;
+        background-color: white;
+        height: 300px;
+        position: relative;
+        right: 50px;
+        transition: left 2s;
+}
+.slide {
+        float: left;
+        position: relative;
+		
+
+}
+     
+#slide-1:target ~ .image-container {
+        left: 0px;
+}
+#slide-2:target ~ .image-container {
+        left: -500px;
+}
+#slide-3:target ~ .image-container {
+        left: -1000px;
+}
+.buttons {
+  position: relative;
+  top:-10px;
+  		
+}
+
+.buttons a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        
+}
+
+
+.subb {
+	border : 1px solid orange;
+	background-color: #ED852F;
+	width:100%;
+	height :80px;
+        font-family: 'Urbanist', sans-serif;
+	font-size: 30px;
+	color :#ffffff;
+	text-align: center;
+	padding-top: 15px;
+	position: relative;
+	top: 20px;
+   
+}
+.list{
+	list-style-image : url(https://www.lawnamericatx.com/index_htm_files/664.png);
+	font-size: 1.5em;
+        font-family: 'Urbanist', sans-serif;
+	position: relative;
+	top: -30px;
+	left: 20px;
+	line-height: 45x;
+	list-style-position:inside;
+}
+.list span{
+        font-size:1.3em;
+        font-family: 'Urbanist', sans-serif;
+}
+.subb1 {
+	border : 1px solid orange;
+	background-color: #ED852F;
+	width:100%;
+	height :80px;
+	font-size: 30px;
+        font-family: 'Urbanist', sans-serif;
+	color :#ffffff;
+	text-align: center;
+	padding-top: 15px;
+	position: relative;
+	top: 20px;
+ }
+ .recipe {
+	text-align: center-left;
+	font-family: 'Urbanist', sans-serif;
+        padding-top: 15px;
+	position: relative;
+	top: 20px;
+}
+.instructions {
+	font-size: 20px;
+        font-family: 'Urbanist', sans-serif;
+	line-height: 40px;
+	
+}
+.img4 {
+	position: relative;
+	top: -490px;
+	left: 1080px;
+}
+.p1 {
+	top: 40px;
+	font-style: bold;
+	position: relative;
+	left: 10px;
+	font-size: 22px;
+}
+.hiit {
+	position: relative;
+	top: 70px;
+	left: 10px;
+	float: left;
+}
+.p2 {
+	position: relative;
+        font-family: 'Urbanist', sans-serif;
+	top: 0px;
+	left: 20px;
+	font-size: 17px;
+	
+	
+}
+.container1{
+        position: relative;
+        bottom: -60px;
+}
+.list1 {
+	
+	font-size: 1em;
+        font-family: 'Urbanist', sans-serif;
+	position: relative;
+	top: -30px;
+	left: 20px;
+	line-height: 45x;
+	list-style-position:inside;
+	
+}
+.cardio {
+	position: relative;
+	top: 100px;
+	right: 10px;
+	float: right;
+	font-size: 25px;
+}
+.fit {
+  transition: 0.3s;
+  align: center;
+  width : 310px;
+  height : 350px;
+  position : relative;
+  top: 60px;
+
+}
+.fit:hover {
+  box-shadow: 0 8px 16px 0 ;
+}
+.subfit {
+	border : 1px solid orange;
+	background-color: #ED852F;
+	width:310px;
+	height :80px;
+	font-size: 25px;
+        font-family: 'Urbanist', sans-serif;
+	color :#ffffff;
+	text-align: center;
+	padding-top: 15px;
+	position: relative;
+        top: 10px;
+        box-shadow: 0 8px 16px 0 ;
+
+}
+.float{
+	margin-left: 40%;
+}
+.floatv{margin-left: 31%;}
+h1.Adults
+  {border : 1px solid orange;
+	background-color: #ED852F;
+	width:15%;
+	height :60px;
+	font-size: 35px;
+	color :#ffffff;
+	font-family: 'Urbanist', sans-serif;
+	border-radius: 15px 50px 30px;
+	padding-top: 10px;
+	padding-left:15px;
+	margin-bottom:5px;
+}
+h2.Adults{
+  border : 1px solid orange;
+  background-color: #ED852F;
+  width:20%;
+  height :5%;
+  font-size: 25px;
+  color :#ffffff;
+  font-family: 'Urbanist', sans-serif;
+  border-radius: 15px 50px 30px;
+  padding-top:10px;
+  padding-left:10px;
+  margin-bottom: -70px;
+}
+h3.Adults{
+border : 2px solid orange;
+font-family: 'Urbanist', sans-serif;
+border-radius: 15px 50px 30px;
+width:25%;
+height :5%;
+padding-top: 10px;
+padding-left:15px;
+margin-top: 90px;
+margin-bottom: -70px;
+}
+.title4{
+	border : 1px solid orange;
+	background-color: #ED852F;
+	width:30%;
+	height: 5%;
+	font-size: 25px;
+	color :#ffffff;
+	font-family: 'Urbanist', sans-serif;
+	border-radius: 15px 50px 30px;
+	padding-top: 10px;
+	padding-left: 15px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        margin-bottom: -90px;
+}
+.container {
+     width: 400px;
+     max-width: 400px;
+     display: block;
+     text-align: center;
+     margin-top: 8%;
+     margin-left: 30%;
+     margin-right: 50%;
+     margin-bottom: 8%;
+     padding: 2rem;
+     box-shadow: 0 0 40px #ED852F;
+     border-radius: 4px;
+     background: #fff;
+}
+.form {
+     display: inline-block;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: left;
+}
+.container,
+.form__input,
+.form__button {
+     font-family: 'Urbanist', sans-serif;    
+}
+.form--hidden {
+     display: none;
+}
+.form__title {
+     font-size: 2rem;
+     margin-bottom: 1rem;
+     text-align: center;
+}
+.form__message {
+     text-align:center;
+     margin-bottom: 1rem;
+}
+.form__input-group {
+     margin-bottom: 0.25rem;
+}
+.form__input{
+     display: block;
+     width: 100%;
+     padding: 0.75rem;
+     box-sizing: border-box;
+     border-radius: 4px;
+     border: 2px #dddddd;
+     outline: none;
+     background: #eeeeee;
+     transition: background 0.2s, border-color 0.2s;
+}
+.form__input:focus {
+     border-color: #ED852F;
+     background: #ffffff;
+}
+.form__button {
+      width: 100%;
+      padding: 1rem 2rem;
+      font-weight: bold;
+      font-size:1.1rem;
+      color:#ffffff;
+      border: none;
+      border-radius: 4px;
+      outline: none;
+      cursor: pointer;
+      background: #ED852F;
+}
+.form__button:hover {
+      background: #006622;
+}
+.form__button:active {
+      transform: scale(0.98);
+}
+.form__text {
+      text-align: center;
+}
+.form__link {
+      color: #000000;
+      text-decoration: none;
+      cursor: pointer;
+}
+.form__link:hover {
+      text-decoration: underline;
+}
+.form__input:invalid {
+       border_color:#d22b2b;
+}
+.form__input:focus:invalid {
+       border-color:#dddddd;
+}
+.p6 {
+     font-family: 'Urbanist', sans-serif; 
+     font-size: 18px;
+     position: relative;
+     top: 45px;
+}
