@@ -1,2 +1,2 @@
 # nutri-guide
-a nutrtional guide website using HTML & CSS
+a nutritional guide website created using HTML & CSS
